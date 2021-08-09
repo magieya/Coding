@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/******** TOP NAVIGATION BAR - CONTAINS IMAGES & ADVANCED SEARCH LINK ********/
+
+.header-links{
+  height: 48px;
+  line-height: 48px;
+  margin: 6px;
+  font-size: 13px;
+  text-align: right;
+}
+.header-links > a{
+  margin-left: 15px;
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+/******** GOOGLE LOGO ********/
+
+.logo-container{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-container{
+  text-align: center;
+}
+
+/******** SEARCH SECTION ********/ 
+
+.search-field{
+  width: 584px;
+  height: 46px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+}
+
+/* This adds some shadow to the search field when you hover over it */
+.search-field:hover{ 
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+.search-icon{
+  width: 20px;
+  height: 20px;
+  margin-left: 14px;
+  margin-right: 13px;
+}
+.search-input{
+  width: 100%;
+  height: 34px;
+  margin-right: 14px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.search-input:focus{
+  outline: none; /* Makes it so when you click on the input field, there is no border */
+}
+
+/******** TWO SUBMIT BUTTONS - GOOGLE SEARCH & IM FEELING LUCKY ********/
+
+.submit-button-container{
+  width: 584px;
+  height: 58px;
+  margin: 0 auto; /* This sets the top and bottom margin to 0 and split the margin left and right equally so the element is centered horizontally */
+  margin-top: 18px;
+  display: flex; /* Seting the display the flex makes the two buttons side by side */
+  justify-content: center; /* Centers the buttons horizontally within the element */
+  align-items: center; /* Centers the buttons vertically within the element */
+}
+.submit-button{
+  height: 34px;
+  padding: 0 16px;
+  margin: 11px 4px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  cursor: pointer; /* Changes your cursor when you hover over the buttons */
+}
+
+/* This adds some shadow and an outline to the buttons when you hover over them */
+.submit-button:hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+ 

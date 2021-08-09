@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Search</title>
+  <link rel="stylesheet" href="advanced.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <a href="/">
+      <img
+        src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" 
+        alt="Google Logo"
+      />
+    </a>
+    <div class="header-links">
+      <a href="/images.html">Images</a>
+      <a href="index.html">Search</a>
+    </div>
+  </div>
+
+
+  <!-- SUBTITLE -->
+  <div class="subtitle">
+    <div class="subtitle-text">Advanced Search</div>
+  </div>
+
+  <hr/>
+
+  <!-- MAIN SECTION -->
+  <div class="main">
+    <table>
+      <colgroup>
+      </tr>
+      <form action="https://google.com/search" name="f">
+        <div class="field">
+            <label for="field1">all these words:</label>
+            <input type="text" class="textinput" id="field1" value=""  name="as_q">
+        </div>
+        <br>
+        <div class="field">
+            <label for="field2">this exact word or phrase: </label>
+            <input type="text" class="textinput" id="field2" value=""  name="as_epq">
+        </div>
+        <br>
+        <div class="field">
+            <label for="field3">any of this words: </label>
+            <input type="text" class="textinput" id="field3" value=""  name="as_oq">
+        </div>
+        <br>
+        <div class="field">
+            <label for="field4">none of these words: </label>
+            <input type="text" class="textinput" id="field4" value=""  name="as_eq">
+        </div>
+        <br>
+        </div>
+        <input type="submit" value="Advanced Search">
+      </form>
+      </tr>
+    </table>
+  </div>
+  
+</body>
+
+</html>

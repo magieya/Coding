@@ -1,0 +1,15 @@
+.logo{
+  background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat;
+  background-size: 272px 92px;
+  height: 92px;
+  width: 272px;
+}
+.small-text{
+  text-align: left;
+  color: #4285f4;
+  position: relative;
+  left: 215px;
+  top: 76px;
+  white-space: nowrap;
+}
+
